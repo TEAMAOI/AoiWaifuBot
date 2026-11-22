@@ -4,7 +4,7 @@ A clean, modular Telegram **Anime Character Catcher & Waifu Collector Bot** buil
 
 ## 🚀 One-Click Deploy on Aoi Hosting
 
-[![Deploy on Aoi Hosting](https://host-repository.vercel.app/deploy-button.svg)](https://host-repository.vercel.app/deploy?template=https://github.com/OWNER/REPO)
+[![Deploy on Aoi Hosting](https://host-repository.vercel.app/deploy-button.svg)](https://host-repository.vercel.app/deploy?template=https://github.com/TEAMAOI/AoiWaifuBot.git)
 
 > **Note:** After pushing this repo to GitHub, replace `OWNER/REPO` in the button URL above with your actual GitHub `username/repo`.
 
