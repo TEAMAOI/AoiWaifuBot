@@ -1,0 +1,94 @@
+{
+  "name": "AoiWaifu Bot",
+  "description": "Clean, modular Telegram Anime Character Catcher & Waifu Collector Bot powered by Kurigram/Pyrogram, python-telegram-bot, and MongoDB.",
+  "branch": "main",
+  "start_command": "python -m aoiwaifu",
+  "requirements_file": "requirements.txt",
+  "buildpacks": ["gcc"],
+  "apt_packages": [],
+  "recommended_ram": 512,
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID from https://my.telegram.org",
+      "placeholder": "12345678",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash from https://my.telegram.org",
+      "placeholder": "your_api_hash",
+      "required": true,
+      "secret": true
+    },
+    "TOKEN": {
+      "description": "Telegram Bot Token from @BotFather",
+      "placeholder": "123456789:AA...",
+      "required": true,
+      "secret": true
+    },
+    "MONGO_URL": {
+      "description": "MongoDB Atlas connection string",
+      "placeholder": "mongodb+srv://user:pass@cluster.mongodb.net/?retryWrites=true&w=majority",
+      "required": true,
+      "secret": true
+    },
+    "DB_NAME": {
+      "description": "MongoDB database name",
+      "value": "aoiwaifu",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram numeric user ID",
+      "placeholder": "123456789",
+      "required": true
+    },
+    "OWNER_USERNAME": {
+      "description": "Owner Telegram username (without @)",
+      "placeholder": "your_username",
+      "required": false
+    },
+    "SUDO": {
+      "description": "Comma-separated Sudo Admin numeric user IDs",
+      "placeholder": "123456789,987654321",
+      "required": false
+    },
+    "GLOG": {
+      "description": "Log channel username or chat ID",
+      "placeholder": "your_log_channel",
+      "required": true
+    },
+    "CHARA_CHANNEL_ID": {
+      "description": "Character database channel username or chat ID",
+      "placeholder": "your_chara_channel",
+      "required": true
+    },
+    "IMGBB_API_KEYS": {
+      "description": "ImgBB API key(s) for /gupload & /reupload (comma-separated for fallback keys)",
+      "placeholder": "your_imgbb_api_key",
+      "required": true,
+      "secret": true
+    },
+    "SUPPORT_CHAT_ID": {
+      "description": "Main support group chat ID (optional)",
+      "placeholder": "-1001234567890",
+      "required": false
+    },
+    "SUPPORT_CHAT": {
+      "description": "Support group URL",
+      "value": "https://t.me/Telegram",
+      "required": false
+    },
+    "UPDATE_CHAT": {
+      "description": "Updates channel URL",
+      "value": "https://t.me/Telegram",
+      "required": false
+    },
+    "PHOTO_URL_1": {
+      "description": "Default bot banner photo URL (optional)",
+      "required": false
+    },
+    "START_MEDIA": {
+      "description": "Custom /start photo/GIF/video URL(s), comma-separated (optional)",
+      "required": false
+    }
+  }
+}

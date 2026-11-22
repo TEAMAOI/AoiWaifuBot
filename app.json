@@ -1,0 +1,74 @@
+{
+  "name": "AoiWaifu",
+  "description": "A clean Telegram Anime Character Catcher & Waifu Collector Bot powered by Kurigram/Pyrogram, python-telegram-bot, and MongoDB.",
+  "repository": "https://github.com/yourusername/aoiwaifu",
+  "keywords": ["python", "telegram-bot", "waifu-bot", "pyrogram", "kurigram", "mongodb"],
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID from https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash from https://my.telegram.org",
+      "required": true
+    },
+    "TOKEN": {
+      "description": "Telegram Bot Token from @BotFather",
+      "required": true
+    },
+    "MONGO_URL": {
+      "description": "MongoDB connection URI",
+      "required": true
+    },
+    "DB_NAME": {
+      "description": "MongoDB database name",
+      "value": "aoiwaifu",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "Bot Owner Telegram User ID",
+      "required": true
+    },
+    "OWNER_USERNAME": {
+      "description": "Bot Owner Telegram username (without @)",
+      "required": false
+    },
+    "SUDO": {
+      "description": "Comma-separated list of Sudo Admin User IDs",
+      "required": false
+    },
+    "GLOG": {
+      "description": "Log channel username or chat ID",
+      "required": true
+    },
+    "CHARA_CHANNEL_ID": {
+      "description": "Character database channel username or chat ID",
+      "required": true
+    },
+    "SUPPORT_CHAT_ID": {
+      "description": "Main support group chat ID",
+      "required": false
+    },
+    "SUPPORT_CHAT": {
+      "description": "Support group invite/username URL",
+      "required": false
+    },
+    "UPDATE_CHAT": {
+      "description": "Updates channel URL",
+      "required": false
+    },
+    "IMGBB_API_KEYS": {
+      "description": "ImgBB API key(s) for /gupload and /reupload (comma-separated for fallback keys)",
+      "required": true
+    },
+    "PHOTO_URL_1": {
+      "description": "Default bot banner photo URL",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+motor
+aiohttp
+requests
+python-telegram-bot==22.8
+pymongo
+pyrate-limiter==3.1.0
+apscheduler==3.11.3
+tgcrypto
+httpx[http2]
+cachetools
+aiofiles
+python-dotenv==0.21.0
+kurigram

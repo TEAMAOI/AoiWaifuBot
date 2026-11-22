@@ -1,0 +1,23 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+ENV/
+
+# Node dependencies
+node_modules/
+
+# Logs and test/tool caches
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
