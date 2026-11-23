@@ -1,8 +1,17 @@
 # 🌸 AoiWaifu Bot
 
 <p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+</p>
+
+<p align="center">
   <img src="https://files.catbox.moe/jivakh.png" alt="AoiWaifu Bot" width="100%">
 </p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+</p>
+
 
 A clean, modular Telegram **Anime Character Catcher & Waifu Collector Bot** built with **Kurigram/Pyrogram**, **python-telegram-bot**, and **MongoDB**.
 
