@@ -1,5 +1,9 @@
 # 🌸 AoiWaifu Bot
 
+<p align="center">
+  <img src="https://files.catbox.moe/jivakh.png" alt="AoiWaifu Bot" width="100%">
+</p>
+
 A clean, modular Telegram **Anime Character Catcher & Waifu Collector Bot** built with **Kurigram/Pyrogram**, **python-telegram-bot**, and **MongoDB**.
 
 ## 🚀 One-Click Deploy on Aoi Hosting
@@ -58,3 +62,10 @@ aoiwaifu/
 | `CHARA_CHANNEL_ID` | Character database channel username or chat ID |
 
 See `.env.example` or `aoi.json` for all optional variables.
+
+---
+
+## 🌐 Community & Support
+
+- **Telegram Channel:** [@aoinetwork](https://t.me/aoinetwork)
+- **Support Group:** [@devpointserror](https://t.me/devpointserror)
